@@ -4,7 +4,7 @@ This is the code for the paper "Model Synthesis for Generalized Model Attributio
 ## Train Model Fingerprint Extractor Based-on Synthetic Models
 
 - Prepare:
-    1. Synthetic models: We construct 5760 synthetic models with 288.
+    1. Synthetic models: We construct 5760 synthetic models with 288 architectures.
     2. Real image datasets: We use real image datasets and synthetic models to generated fingerprinted images. The real image datasets are formed by CelebA and LSUN (20 classes). 
     
     The utilized synthetic models and real image dataset will be released in the future.
