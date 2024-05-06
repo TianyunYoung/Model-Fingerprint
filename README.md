@@ -97,9 +97,9 @@ We provide a small subset of this dataset, with each category containing 50 samp
 ## Evaluation Demo
 
 
-[demo.ipynb]()
+[demo.ipynb](demo.ipynb)
 
-This this demo, we provide some 1:1 model verification cases produced by our model fingerprint extractor. Some of them are shown below:
+In this demo, we provide some model verification results produced by our model fingerprint extractor. Some of them are shown below:
 <img src='figs/1.png' width=1000>
 
 The above two images are collected [here](https://civitai.com/models/212532/all-disney-princess-xl-lora-model-from-ralph-breaks-the-internet).
