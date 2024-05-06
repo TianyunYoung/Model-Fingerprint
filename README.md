@@ -10,11 +10,10 @@ This is the code for the paper "Model Synthesis for Generalized Model Attributio
     The utilized synthetic models and real image dataset will be released in the future.
 
 - Train the model fingerprint extractor based on synthetic models:
-<img src='figs/method.png' width=1000>
-
     ```
     sh ./script/do_train.sh
     ```
+    <img src='figs/method.png' width=1000>
 
 - Our fingerprint extractor trained on synthetic models is here: [Fingerprint Extractor](https://drive.google.com/file/d/1LzFxuMWez9PBP0rYXiH6DKkZJCKFXEZO/view?usp=sharing). Put it into the directory ``./weights``
 
