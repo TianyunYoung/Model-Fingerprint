@@ -11,6 +11,7 @@ This is the code for the paper "Model Synthesis for Generalized Model Attributio
 
 - Train the model fingerprint extractor based on synthetic models:
 <img src='figs/method.png' width=1000>
+
     ```
     sh ./script/do_train.sh
     ```
