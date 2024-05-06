@@ -100,7 +100,7 @@ We provide a small subset of this dataset, with each category containing 50 samp
 [demo.ipynb](demo.ipynb) 
 
 
-In this demo, we provide some model verification results produced by our model fingerprint extractor. The fingerprint extractor is solely trained on synthetic models, without having been trained by images from real generative models.
+In this demo, we provide some model verification results produced by our model fingerprint extractor. The fingerprint extractor is solely trained on synthetic models, without having been trained by images from real-world generative models.
 
 Some of the cases are shown below.
 
