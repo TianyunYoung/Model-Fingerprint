@@ -1,5 +1,5 @@
 # Model-Fingerprint
-This is the code for the paper "Model Synthesis for Generalized Model Attribution". In this paper, we train a model fingerprint extractor based on a large number of synthetic models that mimic the fingerprint patterns of real-world generative models. The fingerprint extractor generalizes well on real-world generative models in the open enrironment that are not included in training.
+This is the code for the paper "Model Synthesis for Zero-shot Model Attribution". In this paper, we train a model fingerprint extractor based on a large number of synthetic models that mimic the fingerprint patterns of real-world generative models. The fingerprint extractor generalizes well on real-world generative models in the open enrironment that are not included in training.
 
 ## Train Model Fingerprint Extractor Based-on Synthetic Models
 
@@ -79,7 +79,7 @@ We provide a small subset of this dataset, with each category containing 50 samp
 
 ### 1:1 Model Verification 
 
-- This task verifies whether two images are from the same models. 
+- This task verifies whether two images are from the same model. 
 - Evaluation script for 1:1 model verification:
     ```
     sh ./script/do_test_1v1.sh
@@ -91,7 +91,7 @@ We provide a small subset of this dataset, with each category containing 50 samp
 
 - Evaluation script for 1:N model identification:
     ```
-    sh ./script/do_test_1vN.sh \
+    sh ./script/do_test_1vN.sh
     ```
 
 ## Evaluation Demo
@@ -100,7 +100,7 @@ We provide a small subset of this dataset, with each category containing 50 samp
 [demo.ipynb](demo.ipynb) 
 
 
-In this demo, we provide some model verification results produced by our model fingerprint extractor. The fingerprint extractor is solely trained on synthetic models, without having been trained by images from real-world generative models.
+In this demo, we provide some model verification results produced by our model fingerprint extractor. The fingerprint extractor is solely trained on synthetic models, without having been trained by images from tested real-world generative models.
 
 Some of the cases are shown below.
 
