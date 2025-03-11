@@ -1,5 +1,5 @@
 # Model-Fingerprint
-This is the code for the paper "Model Synthesis for Zero-shot Model Attribution". In this paper, we train a model fingerprint extractor based on a large number of synthetic models that mimic the fingerprint patterns of real-world generative models. The fingerprint extractor generalizes well on real-world generative models in the open enrironment that are not included in training.
+This is the code for the paper "Model Synthesis for Zero-shot Model Attribution, TMM 2025". In this paper, we train a model fingerprint extractor based on a large number of synthetic models that mimic the fingerprint patterns of real-world generative models. The fingerprint extractor generalizes well on real-world generative models in the open enrironment that are not included in training.
 
 ## Train Model Fingerprint Extractor Based-on Synthetic Models
 
